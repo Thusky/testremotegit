@@ -15,5 +15,7 @@ public class Client {
 	public static void main(String[] args) {
 		IUserInfo u = (IUserInfo) BeanFactory.getBean("test.beans.UserInfo");
 		System.out.println(u.getId());
+
+		System.out.println("第一个分支的代码");
 	}
 }
